@@ -2,6 +2,15 @@
 
 This is react demo project which implements a web shell
  
+## Feature
+
+1. support most of the command in shell
+
+2. history (finished)
+
+3. cd (unfinished)
+
+4. clear (unfinished)
 
 ## How To Start
 
