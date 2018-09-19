@@ -55,7 +55,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Injecting Data from the Server into the Page](#injecting-data-from-the-server-into-the-page)
 - [Running Tests](#running-tests)
   - [Filename Conventions](#filename-conventions)
-  - [Command Line Interface](#command-line-interface)
+  - [Shell Line Interface](#command-line-interface)
   - [Version Control Integration](#version-control-integration)
   - [Writing Tests](#writing-tests)
   - [Testing Components](#testing-components)
@@ -1289,7 +1289,7 @@ The `.test.js` / `.spec.js` files (or the `__tests__` folders) can be located at
 
 We recommend to put the test files (or `__tests__` folders) next to the code they are testing so that relative imports appear shorter. For example, if `App.test.js` and `App.js` are in the same folder, the test just needs to `import App from './App'` instead of a long relative path. Colocation also helps find tests more quickly in larger projects.
 
-### Command Line Interface
+### Shell Line Interface
 
 When you run `npm test`, Jest will launch in the watch mode. Every time you save a file, it will re-run the tests, just like `npm start` recompiles the code.
 
