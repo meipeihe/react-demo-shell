@@ -9,8 +9,8 @@ export default class Shell extends React.Component{
         super(props);
         this.state = {
             content: '',
-            hostname: 'timzhou:',
-            command: 'ls -al'
+            hostname: '',
+            command: ''
         }
         this.commandHistory = []
         this.currentComandIndex = 0
