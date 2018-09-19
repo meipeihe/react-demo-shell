@@ -13,8 +13,4 @@ npm i
 
 npm run server
 
-open a new shell
-
-cd react-demo-shell
-
 npm run dev
