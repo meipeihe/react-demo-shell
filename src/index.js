@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import './common/style/index.styl'
+import './common/stylus/index.styl'
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
